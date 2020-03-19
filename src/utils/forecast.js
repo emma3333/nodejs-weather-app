@@ -14,7 +14,6 @@ const forecast = (latitude, longitude, callback) => {
                 temperature: body.currently.temperature,
                 tempHigh: body.daily.data[0].temperatureHigh,
                 tempLow: body.daily.data[0].temperatureLow,
-                chanceOfRain: body.currently.precipProbability
             })
         }
     })
